@@ -22,38 +22,44 @@ Step 1. Install Guest Additions on the Guest machine.
 a. Open Windows Explorer
 b. Double click at the "CD Drive (X:) VirtualBox Guest additions" to explore its contents.
 		  
-![image](https://github.com/user-attachments/assets/d3dbb341-38c1-4f3e-92f7-0cfe1084e679)
+![image](https://github.com/user-attachments/assets/bce6709b-c2e0-4d7c-849b-611ebd3a5998)
+
 
 C.Right click at "VBoxWindowsAdditions" application and from the pop-up menu, choose "Run as administrator".
  
-![image](https://github.com/user-attachments/assets/35be1b73-df5c-445e-bb24-94d71f7898e4)
+![image](https://github.com/user-attachments/assets/9f7b04f5-22c9-42d1-8f22-bcebb4d4ec99)
+
 
 3.Press Next and then follow the on screen instructions to complete the Guest Additions installation.
 	 
-![image](https://github.com/user-attachments/assets/066c93ef-f2fa-40e8-a8f2-041ca2758db1)
+![image](https://github.com/user-attachments/assets/4d688418-553a-41a0-8498-2c58e3df9a67)
+
 
 4. When the setup is completed, choose Finish and restart the Virtuabox guest machine.
 Step 2. Setup File Sharing on VirtualBox Guest Machine.
 1. From VirtualBox menu click Devices and choose Shared Folders -> Shared Folder Settings.
 
-![image](https://github.com/user-attachments/assets/c58d8e37-8a75-47ad-bdc8-800ff55b2ccf)
+![image](https://github.com/user-attachments/assets/85c28a14-32c5-4f7a-ac5c-9c3541bf7c5c)
 
 2. Click the Add new shared folder icon.
  
-![image](https://github.com/user-attachments/assets/b7cb3277-4fce-4267-8916-04f94a41a2f8)
+![image](https://github.com/user-attachments/assets/1e45ad19-dcc6-459b-9744-ff88d6c3003e)
+
 
 3. Click the drop-down arrow and select Other.
  
-![image](https://github.com/user-attachments/assets/50268dcf-8b14-4592-9a69-439b0639db43)
+![image](https://github.com/user-attachments/assets/c68ec7b3-9b9c-4c6f-8d02-b9442b78b69e)
 
 3. Locate and highlight (from the Host OS) the folder that you want to share between the VirtualBox Guest machine and the Host and click Select Folder. *
 * Note: To make your life easier, create a new folder for the file sharing, on the Host OS and give it with a recognizable name. (e.g. "Public")
  
-![image](https://github.com/user-attachments/assets/076d8f8f-93cc-478e-902b-8d3d0b1474e6)
+![image](https://github.com/user-attachments/assets/751b7a3f-732e-49f4-b39f-cdfbebe9cc55)
+
 
 4. Now, in the 'Add Share' options, type a name (if you want) at the 'Folder Name box, click the Auto Mount and the Make Permanent checkboxes and click OK twice to close the Shared Folder Settings.
  
-![image](https://github.com/user-attachments/assets/3f2c7dc1-5781-43e3-8e36-4e0706d603e0)
+![image](https://github.com/user-attachments/assets/bab11beb-b819-45a4-b04f-4bd91e3309c6)
+
 
 5. You 're done! To access the shared folder from the Guest OS, open Windows Explorer and under the 'Network locations' you should see a new network drive that corresponds to the shared folder on the Host OS.
 
